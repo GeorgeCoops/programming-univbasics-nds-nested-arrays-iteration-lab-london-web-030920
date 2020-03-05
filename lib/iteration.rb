@@ -39,7 +39,7 @@ def total_even_pairs(src)
   # this!
   total = 0
   row_index = 0
-  if (src[row_index][0]) > 0 
+  if src[row_index][0] % 2 = 0
     while row_index < src.count do
         total += src[row_index][0]
         total += src[row_index][1]
