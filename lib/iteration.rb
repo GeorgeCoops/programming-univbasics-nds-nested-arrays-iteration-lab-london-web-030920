@@ -66,6 +66,8 @@ def total_even_pairs(src)
         src[row_index][1] = answer_2
         if answer_1 % 2 == 0 && answer_2 % 2 == 0
             total += answer_1
+            total += answer_2
+            row_index += 1
           else
             row_index += 1
         end
